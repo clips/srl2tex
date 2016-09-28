@@ -1,0 +1,47 @@
+nw/wsj/23/wsj_2399   0   0            The    DT  (TOP(S(NP*             -    -   -   -   *   (ARG1*   -
+nw/wsj/23/wsj_2399   0   1     collateral    NN           *)            -    -   -   -   *        *)  -
+nw/wsj/23/wsj_2399   0   2             is   VBZ        (VP*             -    -   -   -   *        *   -
+nw/wsj/23/wsj_2399   0   3          being   VBG        (VP*             -    -   -   -   *        *   -
+nw/wsj/23/wsj_2399   0   4           sold   VBN        (VP*           sell  01   1   -   *      (V*)  -
+nw/wsj/23/wsj_2399   0   5             by    IN        (PP*             -    -   -   -   *   (ARG0*   -
+nw/wsj/23/wsj_2399   0   6              a    DT        (NP*             -    -   -   -   *        *   -
+nw/wsj/23/wsj_2399   0   7         thrift    NN           *         thrift   -   1   -   *        *   -
+nw/wsj/23/wsj_2399   0   8    institution    NN       *)))))   institution   -   1   -   *        *)  -
+nw/wsj/23/wsj_2399   0   9              .     .          *))            -    -   -   -   *        *   -
+
+bn/abc/00/abc_0029   0   0       She   PRP   (TOP(S(NP*)       -    -   -   -   *        (ARG0*)   (ARG0*)   (0)
+bn/abc/00/abc_0029   0   1      took   VBD      (VP(VP*      take   -   1   -   *    (ARGM-LVB*)        *     -
+bn/abc/00/abc_0029   0   2         a    DT         (NP*        -    -   -   -   *             *         *     -
+bn/abc/00/abc_0029   0   3      deep    JJ            *        -    -   -   -   *    (ARGM-MNR*)        *     -
+bn/abc/00/abc_0029   0   4    breath    NN           *))   breath  01   1   -   *           (V*)        *     -
+bn/abc/00/abc_0029   0   5       and    CC            *        -    -   -   -   *             *         *     -
+bn/abc/00/abc_0029   0   6      said   VBD         (VP*       say  01   1   -   *             *       (V*)    -
+bn/abc/00/abc_0029   0   7         ,     ,            *        -    -   -   -   *             *         *     -
+bn/abc/00/abc_0029   0   8      okay    UH     (INTJ*)))       -    -   -   -   *             *    (ARG1*)    -
+bn/abc/00/abc_0029   0   9         .     .           *))       -    -   -   -   *             *         *     -
+
+bn/abc/00/abc_0029   0    0            The    DT    (TOP(S(NP*         -    -   -   -          *   (ARG1*           *    -
+bn/abc/00/abc_0029   0    1           real    JJ             *         -    -   -   -          *        *           *    -
+bn/abc/00/abc_0029   0    2       pioneers    NN             *)        -    -   -   -          *        *)          *    -
+bn/abc/00/abc_0029   0    3            are   VBP          (VP*         be  01   2   -          *      (V*)          *    -
+bn/abc/00/abc_0029   0    4            men   NNS       (NP(NP*)       man   -   1   -          *   (ARG2*           *    -
+bn/abc/00/abc_0029   0    5           like    IN          (PP*         -    -   -   -          *        *           *    -
+bn/abc/00/abc_0029   0    6           John   NNP       (NP(NP*         -    -   -   -   (PERSON*        *      (ARG0*   (9
+bn/abc/00/abc_0029   0    7       Sheltons   NNP             *)        -    -   -   -          *)       *           *)   -
+bn/abc/00/abc_0029   0    8            who    WP   (SBAR(WHNP*)        -    -   -   -          *        *    (R-ARG0*)   -
+bn/abc/00/abc_0029   0    9        explore    VB        (S(VP*    explore  01   2   -          *        *         (V*)   -
+bn/abc/00/abc_0029   0   10    underground    JJ          (NP*         -    -   -   -          *        *      (ARG1*    -
+bn/abc/00/abc_0029   0   11          caves   NNS      *))))))))        -    -   -   -          *        *)          *)   9)
+bn/abc/00/abc_0029   0   12              .     .            *))        -    -   -   -          *        *           *    -
+
+bn/abc/00/abc_0029   0    0         He   PRP   (TOP(S(NP*)     -    -   -   -        *        (ARG1*)   (9)
+bn/abc/00/abc_0029   0    1      first    RB       (ADVP*)     -    -   -   -        *    (ARGM-TMP*)    -
+bn/abc/00/abc_0029   0    2       came   VBD         (VP*    come  01   1   -        *           (V*)    -
+bn/abc/00/abc_0029   0    3       here    RB       (ADVP*)     -    -   -   -        *        (ARG4*)    -
+bn/abc/00/abc_0029   0    4         as    IN         (PP*      -    -   -   -        *    (ARGM-MNR*     -
+bn/abc/00/abc_0029   0    5          a    DT         (NP*      -    -   -   -        *             *     -
+bn/abc/00/abc_0029   0    6    tourist    NN           *))     -    -   -   -        *             *)    -
+bn/abc/00/abc_0029   0    7        30     CD    (ADVP(NP*      -    -   -   -   (DATE*    (ARGM-TMP*     -
+bn/abc/00/abc_0029   0    8      years   NNS            *)     -    -   -   -        *             *     -
+bn/abc/00/abc_0029   0    9        ago    RB           *))     -    -   -   -        *)            *)    -
+bn/abc/00/abc_0029   0   10          .     .           *))     -    -   -   -        *             *     - 

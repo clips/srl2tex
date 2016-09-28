@@ -1,0 +1,123 @@
+\documentclass[6pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz,graphicx,tikz-dependency}
+\usepackage[paperwidth=30cm, paperheight=20cm, margin=10pt]{geometry}
+
+\begin{document}
+
+\begin{dependency}[label style={font=\bfseries}]
+\begin{deptext}[column sep=0.5cm, row sep=0.1cm, font=\footnotesize]
+ The \& collateral \& is \& being \& sold \& by \& a \& thrift \& institution \& . \\
+The \& collateral \& is \& being \& sold \& by \& a \& thrift \& institution \& . \\
+\end{deptext}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{1}{2}{0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{1}{5}{5}{1}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{6}{9}{2}
+\groupedge[edge above]{1}{0}{ARG1}{3.5ex}
+\groupedge[edge above]{1}{2}{ARG0}{2.5ex}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{1}{2}{_0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{2}{5}{5}{_1}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{6}{9}{_2}
+\groupedge[edge below]{_1}{_0}{ARG1}{3.5ex}
+\groupedge[edge below]{_1}{_2}{ARG0}{2.5ex}
+\end{dependency}
+
+\begin{dependency}[label style={font=\bfseries}]
+\begin{deptext}[column sep=0.5cm, row sep=0.1cm, font=\footnotesize]
+ She \& took \& a \& deep \& breath \& and \& said \& , \& okay \& . \\
+She \& took \& a \& deep \& breath \& and \& said \& , \& okay \& . \\
+\end{deptext}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{1}{1}{0}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{2}{2}{1}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{4}{4}{2}
+\wordgroup[group style={fill=green!50,draw=green!70}]{1}{5}{5}{3}
+\groupedge[edge above]{3}{0}{ARG0}{4.0ex}
+\groupedge[edge above]{3}{1}{ARGM-LVB}{3.0ex}
+\groupedge[edge above]{3}{2}{ARGM-MNR}{1.0ex}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{3}{4}{_0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{2}{5}{5}{_1}
+\groupedge[edge below]{_1}{_0}{ARG1}{1.5ex}
+\end{dependency}
+
+\begin{dependency}[label style={font=\bfseries}]
+\begin{deptext}[column sep=0.5cm, row sep=0.1cm, font=\footnotesize]
+ She \& took \& a \& deep \& breath \& and \& said \& , \& okay \& . \\
+She \& took \& a \& deep \& breath \& and \& said \& , \& okay \& . \\
+\end{deptext}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{1}{1}{0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{1}{7}{7}{1}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{9}{9}{2}
+\groupedge[edge above]{1}{0}{ARG0}{6.0ex}
+\groupedge[edge above]{1}{2}{ARG1}{2.0ex}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{1}{1}{_0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{2}{7}{7}{_1}
+\groupedge[edge below]{_1}{_0}{ARG0}{6.0ex}
+\end{dependency}
+
+\begin{dependency}[label style={font=\bfseries}]
+\begin{deptext}[column sep=0.5cm, row sep=0.1cm, font=\footnotesize]
+ The \& real \& pioneers \& are \& men \& like \& John \& Sheltons \& who \& explore \& underground \& caves \& . \\
+The \& real \& pioneers \& are \& men \& like \& John \& Sheltons \& who \& explore \& underground \& caves \& . \\
+\end{deptext}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{1}{3}{0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{1}{4}{4}{1}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{5}{12}{2}
+\groupedge[edge above]{1}{0}{ARG1}{2.0ex}
+\groupedge[edge above]{1}{2}{ARG2}{4.5ex}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{1}{3}{_0}
+\wordgroup[group style={fill=green!50,draw=green!70}]{2}{4}{4}{_1}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{5}{12}{_2}
+\groupedge[edge below]{_1}{_0}{ARG1}{2.0ex}
+\groupedge[edge below]{_1}{_2}{ARG2}{4.5ex}
+\end{dependency}
+
+\begin{dependency}[label style={font=\bfseries}]
+\begin{deptext}[column sep=0.5cm, row sep=0.1cm, font=\footnotesize]
+ The \& real \& pioneers \& are \& men \& like \& John \& Sheltons \& who \& explore \& underground \& caves \& . \\
+The \& real \& pioneers \& are \& men \& like \& John \& Sheltons \& who \& explore \& underground \& caves \& . \\
+\end{deptext}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{7}{8}{0}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{9}{9}{1}
+\wordgroup[group style={fill=green!50,draw=green!70}]{1}{10}{10}{2}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{11}{12}{3}
+\groupedge[edge above]{2}{0}{ARG0}{2.5ex}
+\groupedge[edge above]{2}{1}{R-ARG0}{1.0ex}
+\groupedge[edge above]{2}{3}{ARG1}{1.5ex}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{7}{8}{_0}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{9}{9}{_1}
+\wordgroup[group style={fill=green!50,draw=green!70}]{2}{10}{10}{_2}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{11}{12}{_3}
+\groupedge[edge below]{_2}{_0}{ARG0}{2.5ex}
+\groupedge[edge below]{_2}{_1}{R-ARG0}{1.0ex}
+\groupedge[edge below]{_2}{_3}{ARG1}{1.5ex}
+\end{dependency}
+
+\begin{dependency}[label style={font=\bfseries}]
+\begin{deptext}[column sep=0.5cm, row sep=0.1cm, font=\footnotesize]
+ He \& first \& came \& here \& as \& a \& tourist \& 30 \& years \& ago \& . \\
+He \& first \& came \& here \& as \& a \& tourist \& 30 \& years \& ago \& . \\
+\end{deptext}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{1}{1}{0}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{2}{2}{1}
+\wordgroup[group style={fill=green!50,draw=green!70}]{1}{3}{3}{2}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{4}{4}{3}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{5}{7}{4}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{1}{8}{10}{5}
+\groupedge[edge above]{2}{0}{ARG1}{2.0ex}
+\groupedge[edge above]{2}{1}{ARGM-TMP}{1.0ex}
+\groupedge[edge above]{2}{3}{ARG4}{1.0ex}
+\groupedge[edge above]{2}{4}{ARGM-MNR}{3.0ex}
+\groupedge[edge above]{2}{5}{ARGM-TMP}{6.0ex}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{1}{1}{_0}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{2}{2}{_1}
+\wordgroup[group style={fill=green!50,draw=green!70}]{2}{3}{3}{_2}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{4}{4}{_3}
+\wordgroup[group style={fill=brown!50,draw=brown!70}]{2}{5}{10}{_4}
+\groupedge[edge below]{_2}{_0}{ARG1}{2.0ex}
+\groupedge[edge below]{_2}{_1}{ARGM-TMP}{1.0ex}
+\groupedge[edge below]{_2}{_3}{ARG4}{1.0ex}
+\groupedge[edge below]{_2}{_4}{ARGM-TMP}{4.5ex}
+\end{dependency}
+
+\end{document}
+    
